@@ -1,7 +1,7 @@
 * {
   font-family: "Josefin Sans";
   box-sizing: border-box;
-  background-color: hsl(349deg, 61%, 93%);
+  background-color: white;
 }
 
 html, body {
@@ -29,7 +29,7 @@ img {
 }
 
 .logo {
-  width: 31%;
+  width: 29%;
   height: 30%;
   margin-top: auto;
   margin-bottom: auto;
@@ -45,7 +45,7 @@ img {
 }
 .coming_soon .heading_unique {
   color: rosybrown;
-  margin-top: 4rem;
+  margin-top: 10%;
   font-weight: 200;
 }
 .coming_soon h1 {
@@ -60,16 +60,17 @@ p {
 }
 
 #submit {
-  background-color: rosybrown;
+  background: rgb(240, 156, 155);
+  border-width: 0px;
   background-image: url(images/icon-arrow.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: -45px;
-  margin-top: 36px;
+  margin-left: -47px;
+  margin-top: 32px;
   position: absolute;
-  width: 45px;
-  padding: 16px;
-  border-radius: 15px;
+  width: 46px;
+  padding: 19px;
+  border-radius: 17px;
   border-color: rosybrown;
   border-style: solid;
 }
@@ -88,6 +89,9 @@ input {
   margin-top: 2rem;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-width: 1px;
+  border-color: rgb(240, 156, 155);
+  border-style: solid;
 }
 
 input:focus {
