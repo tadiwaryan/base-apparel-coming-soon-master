@@ -1,0 +1,95 @@
+* {
+  font-family: "Josefin Sans";
+  box-sizing: border-box;
+  background-color: hsl(349deg, 61%, 93%);
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0%;
+}
+
+img {
+  background-color: white;
+}
+
+.hero_mobile {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  height: 9%;
+  justify-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.logo {
+  width: 31%;
+  height: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 6%;
+}
+
+.coming_soon {
+  letter-spacing: 0.117em;
+  font-size: large;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+}
+.coming_soon .heading_unique {
+  color: rosybrown;
+  margin-top: 4rem;
+  font-weight: 200;
+}
+.coming_soon h1 {
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+  color: rosybrown;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+#submit {
+  background-color: rosybrown;
+  background-image: url(images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -45px;
+  margin-top: 36px;
+  position: absolute;
+  width: 45px;
+  padding: 16px;
+  border-radius: 15px;
+  border-color: rosybrown;
+  border-style: solid;
+}
+
+form {
+  margin-left: 17%;
+  padding: 0px;
+}
+
+input {
+  width: 80%;
+  padding-right: 7%;
+  padding-left: 5px;
+  border-color: rosybrown;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input:focus {
+  outline: red;
+}/*# sourceMappingURL=styles.css.map */
