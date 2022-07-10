@@ -1,7 +1,68 @@
+/*Global Styles*/
+/* Desktop Stylesheet*/
+@media only screen and (min-width: 550px) {
+  html, body {
+    height: 707.667px !important;
+    min-height: 707.667px !important;
+  }
+
+  body {
+    background-image: url(images/bg-pattern-desktop.svg);
+  }
+
+  .nav {
+    width: 60%;
+    margin-left: 8%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .nav .logo {
+    width: 15%;
+    height: 100% !important;
+    margin-top: 5%;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .coming_soon {
+    width: 52%;
+    text-align: left !important;
+    margin-left: 8%;
+    font-size: 37px !important;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  form {
+    width: 38%;
+    margin-left: 8% !important;
+    margin-right: 0px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .hero_desktop {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  P {
+    margin-left: 8% !important;
+    margin-right: 0% !important;
+    text-align: left !important;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  h1 {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+}
 * {
   font-family: "Josefin Sans";
   box-sizing: border-box;
-  background-color: white;
 }
 
 html, body {
@@ -10,8 +71,9 @@ html, body {
   margin: 0%;
 }
 
+/* Mobile-First Stylesheet */
 img {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .hero_mobile {
@@ -25,7 +87,7 @@ img {
   height: 9%;
   justify-items: center;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .logo {
@@ -44,7 +106,7 @@ img {
   font-size: 30px;
 }
 .coming_soon .heading_unique {
-  color: rosybrown;
+  color: rgb(240, 156, 155);
   margin-top: 10%;
   font-weight: 200;
 }
@@ -54,9 +116,10 @@ img {
 
 p {
   text-align: center;
-  color: rosybrown;
+  color: rgb(240, 156, 155);
   margin-right: 8%;
   margin-left: 8%;
+  color: rosybrown;
 }
 
 #submit {
@@ -71,7 +134,7 @@ p {
   width: 46px;
   padding: 19px;
   border-radius: 17px;
-  border-color: rosybrown;
+  border-color: rgb(240, 156, 155);
   border-style: solid;
 }
 
@@ -83,15 +146,15 @@ form {
 input {
   width: 80%;
   padding-right: 15%;
-  padding-left: 5px;
+  padding-left: 8px;
   border-color: rosybrown;
   border-radius: 20px;
   margin-top: 2rem;
   padding-top: 10px;
   padding-bottom: 10px;
   border-width: 1px;
-  border-color: rgb(240, 156, 155);
   border-style: solid;
+  color: rosybrown;
 }
 
 input:focus {
