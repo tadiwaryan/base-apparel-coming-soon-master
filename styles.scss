@@ -39,6 +39,9 @@ $text-color: rosybrown;
         margin-left: 8%;
         font-size: 37px !important;
         background-color: rgba(0, 0, 0, 0);
+        .heading_unique{
+            color: $text-color;
+        }
     }
 
     form{

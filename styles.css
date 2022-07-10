@@ -30,6 +30,9 @@
     font-size: 37px !important;
     background-color: rgba(0, 0, 0, 0);
   }
+  .coming_soon .heading_unique {
+    color: rosybrown;
+  }
 
   form {
     width: 38%;
